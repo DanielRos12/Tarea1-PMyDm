@@ -1,0 +1,68 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="28dp"
+    android:background="#F5F8F6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FIT"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="#19A974" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRACK"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#172B24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="TU ENTRENAMIENTO, A TU RITMO"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#19A974"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="Organiza tus rutinas, registra tu actividad y avanza hacia tus objetivos."
+        android:textSize="16sp"
+        android:textColor="#65736C"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnCrearCuenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear cuenta" />
+
+    <Button
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Iniciar sesión" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Empieza hoy. Progresa cada día."
+        android:textSize="12sp"
+        android:textColor="#65736C" />
+
+</LinearLayout>
