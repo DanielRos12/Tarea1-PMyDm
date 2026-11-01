@@ -17,5 +17,10 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
             }
 
+        findViewById<android.widget.Button>(R.id.btnIniciarSesion)
+            .setOnClickListener {
+                val intent = android.content.Intent(this, LoginActivity::class.java)
+                startActivity(intent)
+            }
     }
 }
