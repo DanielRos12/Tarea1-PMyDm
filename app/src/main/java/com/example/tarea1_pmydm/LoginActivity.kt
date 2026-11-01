@@ -40,11 +40,8 @@ class LoginActivity : AppCompatActivity() {
         }
 
         recuperar.setOnClickListener {
-            Toast.makeText(
-                this,
-                "Próximamente: recuperar contraseña",
-                Toast.LENGTH_SHORT
-            ).show()
+            val intent = android.content.Intent(this, RecoveryActivity::class.java)
+            startActivity(intent)
         }
     }
 }

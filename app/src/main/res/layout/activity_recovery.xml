@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F8F6"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FIT TRACK"
+            android:textColor="#19A974"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="Recuperar contraseña"
+            android:textColor="#172B24"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="28dp"
+            android:text="Introduce tu correo electrónico y te enviaremos las instrucciones para recuperar tu contraseña."
+            android:textColor="#65736C"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo electrónico"
+            android:textColor="#172B24"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etCorreoRecovery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="ejemplo@correo.com"
+            android:inputType="textEmailAddress"
+            android:minHeight="52dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnEnviarRecovery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#19A974"
+            android:text="Enviar instrucciones"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvResultadoRecovery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="#19A974"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
