@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="fit_background">#FF121A16</color>
+    <color name="fit_text_primary">#FFF1F5F3</color>
+    <color name="fit_text_secondary">#FFA9B8B0</color>
+</resources>

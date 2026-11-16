@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.tarea1_pmydm.fragments.WelcomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcome_to_registro"
+            app:destination="@id/registroFragment" />
+        <action
+            android:id="@+id/action_welcome_to_login"
+            app:destination="@id/loginFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.tarea1_pmydm.fragments.LoginFragment"
+        android:label="@string/action_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_login_to_recovery"
+            app:destination="@id/recoveryFragment" />
+        <action
+            android:id="@+id/action_login_to_registro"
+            app:destination="@id/registroFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_login_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registroFragment"
+        android:name="com.example.tarea1_pmydm.fragments.RegistroFragment"
+        android:label="@string/signup_title"
+        tools:layout="@layout/fragment_registro">
+        <action
+            android:id="@+id/action_registro_to_login"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/registroFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recoveryFragment"
+        android:name="com.example.tarea1_pmydm.fragments.RecoveryFragment"
+        android:label="@string/recovery_title"
+        tools:layout="@layout/fragment_recovery" />
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.tarea1_pmydm.fragments.HomeFragment"
+        android:label="@string/home_title"
+        tools:layout="@layout/fragment_home" />
+
+</navigation>
