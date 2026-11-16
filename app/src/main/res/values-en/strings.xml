@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FitTrack</string>
+    <string name="brand">FIT TRACK</string>
+
+    <!-- Welcome -->
+    <string name="welcome_logo_fit">FIT</string>
+    <string name="welcome_logo_track">TRACK</string>
+    <string name="welcome_slogan">YOUR TRAINING, AT YOUR PACE</string>
+    <string name="welcome_description">Organize your routines, track your activity and move toward your goals.</string>
+    <string name="welcome_tagline">Start today. Progress every day.</string>
+    <string name="action_create_account">Create account</string>
+    <string name="action_login">Log in</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome back!</string>
+    <string name="login_subtitle">Log in to continue with your workouts.</string>
+    <string name="hint_user_or_email">Username or email</string>
+    <string name="hint_password">Password</string>
+    <string name="login_forgot_password">Forgot your password?</string>
+    <string name="login_no_account">Don\'t have an account? Sign up</string>
+
+    <!-- Sign up -->
+    <string name="signup_title">Create account</string>
+    <string name="signup_subtitle">Join FIT TRACK and start improving every day.</string>
+    <string name="hint_full_name">Full name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_repeat_password">Repeat password</string>
+    <string name="action_register">Sign up</string>
+    <string name="signup_have_account">Already have an account? Log in</string>
+
+    <!-- Password recovery -->
+    <string name="recovery_title">Recover password</string>
+    <string name="recovery_subtitle">Enter your username or email to request recovery instructions.</string>
+    <string name="action_recover_password">Recover password</string>
+    <string name="recovery_back_to_login">Back to log in</string>
+
+    <!-- Home -->
+    <string name="home_title">HomeFragment</string>
+
+    <!-- Validation errors (TextInputLayout.error) -->
+    <string name="error_user_invalid">Enter a valid email or a username of 3 to 20 characters (letters, numbers, . _ -)</string>
+    <string name="error_email_invalid">Enter a valid email address</string>
+    <string name="error_name_invalid">Enter your name (at least 2 characters)</string>
+    <string name="error_password_short">Use at least 6 characters</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+
+    <!-- Messages (Toast) -->
+    <string name="toast_error_fill_fields">Please fill in all fields correctly</string>
+    <string name="toast_account_created">Account created. You can now log in</string>
+    <string name="toast_recovery_sent">We have sent you the recovery instructions</string>
+</resources>

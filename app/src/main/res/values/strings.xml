@@ -1,3 +1,51 @@
 <resources>
-    <string name="app_name">Tarea1-PMyDM</string>
+    <string name="app_name">FitTrack</string>
+    <string name="brand">FIT TRACK</string>
+
+    <!-- Bienvenida -->
+    <string name="welcome_logo_fit">FIT</string>
+    <string name="welcome_logo_track">TRACK</string>
+    <string name="welcome_slogan">TU ENTRENAMIENTO, A TU RITMO</string>
+    <string name="welcome_description">Organiza tus rutinas, registra tu actividad y avanza hacia tus objetivos.</string>
+    <string name="welcome_tagline">Empieza hoy. Progresa cada día.</string>
+    <string name="action_create_account">Crear cuenta</string>
+    <string name="action_login">Iniciar sesión</string>
+
+    <!-- Login -->
+    <string name="login_title">¡Bienvenido de nuevo!</string>
+    <string name="login_subtitle">Inicia sesión para continuar con tus entrenamientos.</string>
+    <string name="hint_user_or_email">Usuario o correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="login_forgot_password">¿Has olvidado tu contraseña?</string>
+    <string name="login_no_account">¿No tienes cuenta? Crear cuenta</string>
+
+    <!-- Registro -->
+    <string name="signup_title">Crear cuenta</string>
+    <string name="signup_subtitle">Únete a FIT TRACK y empieza a mejorar cada día.</string>
+    <string name="hint_full_name">Nombre completo</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_repeat_password">Repetir contraseña</string>
+    <string name="action_register">Registrarse</string>
+    <string name="signup_have_account">¿Ya tienes cuenta? Iniciar sesión</string>
+
+    <!-- Recuperar contraseña -->
+    <string name="recovery_title">Recuperar contraseña</string>
+    <string name="recovery_subtitle">Introduce tu usuario o correo electrónico para solicitar instrucciones de recuperación.</string>
+    <string name="action_recover_password">Recuperar contraseña</string>
+    <string name="recovery_back_to_login">Volver a iniciar sesión</string>
+
+    <!-- Home -->
+    <string name="home_title">HomeFragment</string>
+
+    <!-- Errores de validación (TextInputLayout.error) -->
+    <string name="error_user_invalid">Introduce un correo válido o un usuario de 3 a 20 caracteres (letras, números, . _ -)</string>
+    <string name="error_email_invalid">Introduce un correo electrónico válido</string>
+    <string name="error_name_invalid">Introduce tu nombre (mínimo 2 caracteres)</string>
+    <string name="error_password_short">Usa al menos 6 caracteres</string>
+    <string name="error_passwords_mismatch">Las contraseñas no coinciden</string>
+
+    <!-- Mensajes (Toast) -->
+    <string name="toast_error_fill_fields">Completa todos los campos correctamente</string>
+    <string name="toast_account_created">Cuenta creada. Ya puedes iniciar sesión</string>
+    <string name="toast_recovery_sent">Te hemos enviado las instrucciones de recuperación</string>
 </resources>
